@@ -13,3 +13,24 @@ body {
     padding-top: 56px;
   }
 }
+
+.logo{
+	width: 15%;
+	height: 15%;
+}
+
+.footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}
+
+.container-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: spacearound; 
+	width: 100%;
+}
+.formgruppe{
+	width: 65%; 
+}
