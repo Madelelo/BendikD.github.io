@@ -20,7 +20,7 @@ body {
 }
 
 .footer{
-	position: fixed;
+	position: relative;
 	width: 100%;
 	bottom: 0px;
 }
@@ -28,9 +28,15 @@ body {
 .container-flex{
 	display: flex;
 	flex-direction: column;
-	justify-content: spacearound; 
+	justify-content: spacearound;
 	width: 100%;
 }
 .formgruppe{
-	width: 65%; 
+	width: 65%;
+}
+
+.btn {
+  border-color: lightgray;
+  border-width: thin;
+  padding:10px;
 }
